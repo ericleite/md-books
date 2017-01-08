@@ -1,0 +1,12 @@
+/* Normalize CSS rules across browsers */
+@import "normalize.css";
+
+/* Non-component speicifc CSS */
+@import "base.css";
+@import "utils.css";
+
+/* Components-specific CSS */
+@import "components/App.css";
+@import "components/Header.css";
+@import "components/Footer.css";
+@import "components/Book.css";
