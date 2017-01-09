@@ -30,11 +30,11 @@
 
 .Header-title h2 {
     text-align: center;
-    font-family: "Roboto Slab", "Times New Roman", serif;
+    font-family: "Roboto", "Arial", sans-serif;
     color: darkgreen;
     font-size: smaller;
     font-weight: 300;
-    display: -webkit-box;
+    display: inline-block;
     padding-left: 15px;
 
 }
@@ -45,7 +45,7 @@
     padding-top: 50px;
 }
 
-.Header-search input#keywords {
+.Header-search input.keywords {
     width: 560px;
     background-color: #CFDE9D;
     color: green;
@@ -56,7 +56,7 @@
     padding: 10px;
 }
 
-.Header-search #search > button {
+.Header-search button.go-search {
     padding: 10px;
     background-color: white;
     color: #7B9E0E;
@@ -71,3 +71,4 @@
 ::-webkit-input-placeholder {
     color: #7B9E0E;
 }
+
