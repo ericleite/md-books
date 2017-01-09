@@ -71,4 +71,12 @@
 ::-webkit-input-placeholder {
     color: #7B9E0E;
 }
-
+::-moz-placeholder { /* Firefox 19+ */
+    color: #7B9E0E;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: #7B9E0E;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #7B9E0E;
+}
