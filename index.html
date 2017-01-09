@@ -9,6 +9,8 @@
 </head>
 <body>
   <div class="App">
+
+    <!-- HEADER -->
     <header class="Header">
       <div class="Header-title">
         <img src="assets/books.MD_logo_icon.png" />
@@ -23,10 +25,12 @@
       </div>
     </header>
 
+    <!-- NAVIGATION TABS -->
     <nav class="Tabs">
 
     </nav>
 
+    <!-- BOOKS -->
     <div class="Books">
       <div class="Book -container">
         <div class="Book-wrap">
@@ -168,9 +172,9 @@
       <div class="Book -container">
         <div class="Book-wrap">
           <div class="Overlay">
-            <div class="Overlay-close">
-              <i class="fa fa-times" aria-hidden="true">X</i>
-            </div>
+            <button class="Overlay-close">
+              <i class="fa fa-times" aria-hidden="true"></i>
+            </button>
             <div class="Overlay-tabPanel">
               <input name="keywords" class="Overlay-searchInput Input" value="JavaScript">
               <div class="Overlay-searchResults">
@@ -399,18 +403,23 @@
           </a>
         </div>
       </div>
+      <div class="Books-loadMore">Load More Books</div>
     </div>
 
+    <!-- FOOTER -->
     <footer class="Footer">
-      <div class="Footer-logo">
-        <img src="assets/books.MD_footer_logo_icon.png" />
-        <h1>Books. <span>Modern Developer</span></h1>
-      </div>
-      <div class="Footer-legal">
-        <p>&copy; 2016 Modern Developer Inc.<br />
-        <span>books@moderndeveloper.com</span></p>
+      <div class="Footer-wrap -container -clearfix">
+        <div class="Footer-logo">
+          <img src="assets/books.MD_footer_logo_icon.png" />
+          <h1>Books. <span>Modern Developer</span></h1>
+        </div>
+        <div class="Footer-legal">
+          <p>&copy; 2016 Modern Developer Inc.<br />
+          <span>books@moderndeveloper.com</span></p>
+        </div>
       </div>
     </footer>
+
   </div>
 </body>
 </html>

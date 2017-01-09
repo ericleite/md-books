@@ -53,8 +53,9 @@
 
 .Overlay-tabs {
   position: absolute;
-  top: 4em;
-  right: -10em;
+  top: 3.5em;
+  right: 0;
+  transform: translateX(10em);
 }
 
 .Overlay-tab {
@@ -70,6 +71,7 @@
   text-align: center;
   transform: rotate(90deg) translateY(-50%);
   transform-origin: 0 0;
+  transition: color 200ms ease, background-color 200ms ease;
 }
 
 .Overlay-tab:hover, .Overlay-tab.-active {
@@ -79,11 +81,12 @@
 
 .Overlay-close {
   position: absolute;
-  right: -2.625em;
+  right: 0;
   top: 0;
-  width: 2.625em;
-  height: 2.625em;
-  font-size: 1em;
-  line-height: 2.625em;
+  width: 2.1em;
+  height: 2.1em;
+  font-size: 1.25em;
+  line-height: 2.1em;
   text-align: center;
+  transform: translateX(2.1em);
 }
