@@ -1,0 +1,73 @@
+.Header {
+    background-image: url("../../assets/books_header_bg.jpg");
+    padding: 50px 0 50px 0;
+}
+
+.Header-title {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.Header-title img {
+    float: left;
+    margin-top: -10px;
+
+}
+
+.Header-title h1 {
+    display: inline;
+    font-family: "Roboto Slab", "Times New Roman", serif;
+    color: whitesmoke;
+    font-size: 1.6em;
+    font-weight: 300;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+.Header-title h1 span {
+    font-weight: 100;
+}
+
+.Header-title h2 {
+    text-align: center;
+    font-family: "Roboto Slab", "Times New Roman", serif;
+    color: darkgreen;
+    font-size: smaller;
+    font-weight: 300;
+    display: -webkit-box;
+    padding-left: 15px;
+
+}
+
+.Header-search {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.Header-search input#keywords {
+    width: 560px;
+    background-color: #CFDE9D;
+    color: green;
+    border: 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.Header-search #search > button {
+    padding: 10px;
+    background-color: white;
+    color: #7B9E0E;
+    border: 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-left: -10px;
+    width: 40px;
+}
+
+::-webkit-input-placeholder {
+    color: #7B9E0E;
+}
