@@ -1,11 +1,12 @@
-.Book {
+.Book + .Book {
+  margin-top: 6em;
+}
+
+.Book-wrap {
   display: flex;
-  width: 100%;
-  max-width: 75em; /* 1200px */
-  margin-top: 3.5em;
-  margin-left: auto;
-  margin-right: auto;
+  position: relative;
   background-color: #fff;
+  border-radius: 4px;
 }
 
 .Book-info {
@@ -16,7 +17,9 @@
 .Book-cover {
   flex: 0 0 22.5em;
   width: 22.5em;
+  background-position: center;
   background-size: cover;
+  border-radius: 4px;
 }
 
 .Book-title {
@@ -53,12 +56,8 @@
   padding-left: 2em;
 }
 
-.Book-summary-ratings {
-
-}
-
 .Book-summary-links {
-  margin: 0;
+  margin: 2em 0 0;
   padding: 0;
   list-style: none;
 }
@@ -81,4 +80,16 @@
   display: inline-block;
   float: right;
   content: '\203A';
+}
+
+.Book-actions {
+  margin-top: 2em;
+}
+
+.Book-actions > .Seller {
+  float: left;
+}
+
+.Book-actions > .Action.-bookmark {
+  float: right;
 }

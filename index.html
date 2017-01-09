@@ -5,7 +5,7 @@
   <title>Books.MD</title>
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,300italic|Roboto+Slab:400,300,700,100' rel='stylesheet' type='text/css'>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="css/main.css" />
+  <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
   <div class="App">
@@ -22,65 +22,385 @@
         </form>
       </div>
     </header>
+
     <nav class="Tabs">
 
     </nav>
+
     <div class="Books">
-      <div class="Book">
-        <div class="Book-info">
-          <h3 class="Book-title">Eloquent JavaScript: A Modern Introduction to Programming</h3>
-          <div class="Book-metadata">
-            <div class="Book-metadata-author">
-              by <a href="#">Marijn Haverbeke</a>
-              <a class="Button -sm -inline">Follow</a>
+      <div class="Book -container">
+        <div class="Book-wrap">
+          <div class="Book-info">
+            <h3 class="Book-title">Eloquent JavaScript: A Modern Introduction to Programming</h3>
+            <div class="Book-metadata">
+              <div class="Book-metadata-author">
+                by <a href="#">Marijn Haverbeke</a>
+                <a class="Button -sm -inline">Follow</a>
+              </div>
+              <div class="Book-metadata-published">Published on 2015</div>
+              <div class="Book-metadata-edition">2nd edition</div>
             </div>
-            <div class="Book-metadata-published">Published on 2015</div>
-            <div class="Book-metadata-edition">2nd edition</div>
+            <div class="Book-summary">
+              <div class="Book-summary-description">
+                <p>JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.</p>
+                <p>Eloquent JavaScript, 2nd Edition dives deep into the JavaScript language to show you how to write beautiful, effective code.</p>
+                <p><a href="#">Read more</a></p>
+              </div>
+              <div class="Book-summary-stats">
+                <div class="Book-summary-ratings">
+                  <div class="ProgressBar -p80 -orange">
+                    <div class="ProgressBar-titleBar">
+                      <span class="ProgressBar-title">Easy to follow</span>
+                      <span class="ProgressBar-comments">29</span>
+                      <span class="ProgressBar-percent">80%</span>
+                    </div>
+                    <div class="ProgressBar-bar"></div>
+                  </div>
+                  <div class="ProgressBar -p75 -green">
+                    <div class="ProgressBar-titleBar">
+                      <span class="ProgressBar-title">Comprehensive</span>
+                      <span class="ProgressBar-comments">6</span>
+                      <span class="ProgressBar-percent">75%</span>
+                    </div>
+                    <div class="ProgressBar-bar"></div>
+                  </div>
+                  <div class="ProgressBar -p95 -blue">
+                    <div class="ProgressBar-titleBar">
+                      <span class="ProgressBar-title">Enough examples</span>
+                      <span class="ProgressBar-comments">18</span>
+                      <span class="ProgressBar-percent">95%</span>
+                    </div>
+                    <div class="ProgressBar-bar"></div>
+                  </div>
+                </div>
+                <ul class="Book-summary-links">
+                  <li><a href="#">Rate the Book</a></li>
+                  <li><a href="#">Table of Contents</a></li>
+                  <li><a href="#">Search Inside</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="Book-summary">
-            <div class="Book-summary-description">
-              <p>JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.</p>
-              <p>Eloquent JavaScript, 2nd Edition dives deep into the JavaScript language to show you how to write beautiful, effective code.</p>
-              <p><a href="#">Read more</a></p>
+          <div class="Book-cover" style="background-image: url('assets/book-covers/eloquent-javascript.png')"></div>
+        </div>
+        <div class="Book-actions -clearfix">
+          <a href="#" class="Seller">
+            <div class="Seller-logo">
+              <img src="assets/logos/gumroad.png">
             </div>
-            <div class="Book-summary-stats">
-              <div class="Book-summary-ratings">
-                <div class="ProgressBar -p80 -orange">
-                  <div class="ProgressBar-titleBar">
-                    <span class="ProgressBar-title">Easy to follow</span>
-                    <span class="ProgressBar-comments">29</span>
-                    <span class="ProgressBar-percent">80%</span>
+            <span class="Seller-price">$28.40</span>
+          </a>
+          <a href="#" class="Seller">
+            <div class="Seller-logo">
+              <img src="assets/logos/amazon.png">
+            </div>
+            <span class="Seller-price">$29.65</span>
+          </a>
+          <a href="#" class="Seller">
+            <div class="Seller-logo">
+              <span class="Seller-type">publisher</span>
+              <span class="Seller-name">manning.com</span>
+            </div>
+            <span class="Seller-price">$28.70</span>
+          </a>
+          <a href="#" class="Action -bookmark">
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <span>Bookmark It</span>
+          </a>
+        </div>
+      </div>
+      <div class="Book -container">
+        <div class="Book-wrap">
+          <div class="Book-info">
+            <h3 class="Book-title">JavaScript and JQuery: Interactive Front-end Web Development</h3>
+            <div class="Book-metadata">
+              <div class="Book-metadata-author">
+                by <a href="#">Marijn Haverbeke</a>
+                <a class="Button -sm -inline">Follow</a>
+              </div>
+              <div class="Book-metadata-published">Published on 2016</div>
+              <div class="Book-metadata-edition">1st edition</div>
+            </div>
+            <div class="Book-summary">
+              <div class="Book-summary-description">
+                <p>In JavaScript &amp; jQuery renowned author Jon Duckett discards the traditional programming book template and approaches writing code in a more relevant, less intimitdating way.</p>
+                <p>Full-color and packed with instructional graphics and photos, his books have gained a loyal following by illustrating programming in a way both instructive for newcomers and invaluable for seasoned coders.</p>
+                <p><a href="#">Read more</a></p>
+              </div>
+              <div class="Book-summary-stats">
+                <div class="Book-summary-ratings">
+                  <div class="ProgressBar -p80 -orange">
+                    <div class="ProgressBar-titleBar">
+                      <span class="ProgressBar-title">Easy to follow</span>
+                      <span class="ProgressBar-percent">80%</span>
+                    </div>
+                    <div class="ProgressBar-bar"></div>
                   </div>
-                  <div class="ProgressBar-bar"></div>
+                  <div class="ProgressBar -p75 -green">
+                    <div class="ProgressBar-titleBar">
+                      <span class="ProgressBar-title">Comprehensive</span>
+                      <span class="ProgressBar-percent">75%</span>
+                    </div>
+                    <div class="ProgressBar-bar"></div>
+                  </div>
+                  <div class="ProgressBar -p95 -blue">
+                    <div class="ProgressBar-titleBar">
+                      <span class="ProgressBar-title">Enough examples</span>
+                      <span class="ProgressBar-percent">95%</span>
+                    </div>
+                    <div class="ProgressBar-bar"></div>
+                  </div>
                 </div>
-                <div class="ProgressBar -p75 -green">
-                  <div class="ProgressBar-titleBar">
-                    <span class="ProgressBar-title">Comprehensive</span>
-                    <span class="ProgressBar-comments">6</span>
-                    <span class="ProgressBar-percent">75%</span>
-                  </div>
-                  <div class="ProgressBar-bar"></div>
+                <ul class="Book-summary-links">
+                  <li><a href="#">Rate the Book</a></li>
+                  <li><a href="#">Table of Contents</a></li>
+                  <li><a href="#">Search Inside</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="Book-cover" style="background-image: url('assets/book-covers/javascript-and-jquery.png')"></div>
+        </div>
+        <div class="Book-actions -clearfix">
+          <a href="#" class="Button -filled">Download the Book</a>
+        </div>
+      </div>
+      <div class="Book -container">
+        <div class="Book-wrap">
+          <div class="Overlay">
+            <div class="Overlay-close">
+              <i class="fa fa-times" aria-hidden="true">X</i>
+            </div>
+            <div class="Overlay-tabPanel">
+              <input name="keywords" class="Overlay-searchInput Input" value="JavaScript">
+              <div class="Overlay-searchResults">
+                <div class="result -clearfix">
+                  <div class="exerpt">... EloqEnt <span class="keyword">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marijn Haverbeke. This is a really long result that should be trucated by now</div>
+                  <div class="page">8</div>
                 </div>
-                <div class="ProgressBar -p95 -blue">
-                  <div class="ProgressBar-titleBar">
-                    <span class="ProgressBar-title">Enough examples</span>
-                    <span class="ProgressBar-comments">18</span>
-                    <span class="ProgressBar-percent">95%</span>
-                  </div>
-                  <div class="ProgressBar-bar"></div>
+                <div class="result -clearfix">
+                  <div class="exerpt">... EloqEnt <span class="keyword">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marijn Haverbeke. This is a really long result that should be trucated by now</div>
+                  <div class="page">8</div>
+                </div>
+                <div class="result -clearfix">
+                  <div class="exerpt">... EloqEnt <span class="keyword">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marijn Haverbeke. This is a really long result that should be trucated by now</div>
+                  <div class="page">8</div>
+                </div>
+                <div class="result -clearfix">
+                  <div class="exerpt">... EloqEnt <span class="keyword">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marijn Haverbeke. This is a really long result that should be trucated by now</div>
+                  <div class="page">8</div>
+                </div>
+                <div class="result -clearfix">
+                  <div class="exerpt">... EloqEnt <span class="keyword">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marijn Haverbeke. This is a really long result that should be trucated by now</div>
+                  <div class="page">8</div>
+                </div>
+                <div class="result -clearfix">
+                  <div class="exerpt">... EloqEnt <span class="keyword">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marijn Haverbeke. This is a really long result that should be trucated by now</div>
+                  <div class="page">8</div>
+                </div>
+                <div class="result -clearfix">
+                  <div class="exerpt">... EloqEnt <span class="keyword">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marijn Haverbeke. This is a really long result that should be trucated by now</div>
+                  <div class="page">8</div>
+                </div>
+                <div class="result -clearfix">
+                  <div class="exerpt">... EloqEnt <span class="keyword">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marijn Haverbeke. This is a really long result that should be trucated by now</div>
+                  <div class="page">8</div>
+                </div>
+                <div class="result -clearfix">
+                  <div class="exerpt">... EloqEnt <span class="keyword">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marijn Haverbeke. This is a really long result that should be trucated by now</div>
+                  <div class="page">8</div>
+                </div>
+                <div class="result -clearfix">
+                  <div class="exerpt">... EloqEnt <span class="keyword">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marijn Haverbeke. This is a really long result that should be trucated by now</div>
+                  <div class="page">8</div>
+                </div>
+                <div class="result -clearfix">
+                  <div class="exerpt">... EloqEnt <span class="keyword">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marijn Haverbeke. This is a really long result that should be trucated by now</div>
+                  <div class="page">8</div>
+                </div>
+                <div class="result -clearfix">
+                  <div class="exerpt">... EloqEnt <span class="keyword">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marijn Haverbeke. This is a really long result that should be trucated by now</div>
+                  <div class="page">8</div>
+                </div>
+                <div class="result -clearfix">
+                  <div class="exerpt">... EloqEnt <span class="keyword">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marijn Haverbeke. This is a really long result that should be trucated by now</div>
+                  <div class="page">8</div>
+                </div>
+                <div class="result -clearfix">
+                  <div class="exerpt">... EloqEnt <span class="keyword">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marijn Haverbeke. This is a really long result that should be trucated by now</div>
+                  <div class="page">8</div>
+                </div>
+                <div class="result -clearfix">
+                  <div class="exerpt">... EloqEnt <span class="keyword">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marijn Haverbeke. This is a really long result that should be trucated by now</div>
+                  <div class="page">8</div>
                 </div>
               </div>
-              <ul class="Book-summary-links">
-                <li><a href="#">Rate the Book</a></li>
-                <li><a href="#">Table of Contents</a></li>
-                <li><a href="#">Search Inside</a></li>
-              </ul>
+            </div>
+            <div class="Overlay-tabs">
+              <div class="Overlay-tab -active">
+                Search Inside
+              </div>
+              <div class="Overlay-tab">
+                Table of Contents
+              </div>
+              <div class="Overlay-tab">
+                Rate the Book
+              </div>
             </div>
           </div>
+          <div class="Book-info">
+            <h3 class="Book-title">Eloquent JavaScript: A Modern Introduction to Programming</h3>
+            <div class="Book-metadata">
+              <div class="Book-metadata-author">
+                by <a href="#">Marijn Haverbeke</a>
+                <a class="Button -sm -inline">Follow</a>
+              </div>
+              <div class="Book-metadata-published">Published on 2015</div>
+              <div class="Book-metadata-edition">2nd edition</div>
+            </div>
+            <div class="Book-summary">
+              <div class="Book-summary-description">
+                <p>JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.</p>
+                <p>Eloquent JavaScript, 2nd Edition dives deep into the JavaScript language to show you how to write beautiful, effective code.</p>
+                <p><a href="#">Read more</a></p>
+              </div>
+              <div class="Book-summary-stats">
+                <div class="Book-summary-ratings">
+                  <div class="ProgressBar -p80 -orange">
+                    <div class="ProgressBar-titleBar">
+                      <span class="ProgressBar-title">Easy to follow</span>
+                      <span class="ProgressBar-comments">29</span>
+                      <span class="ProgressBar-percent">80%</span>
+                    </div>
+                    <div class="ProgressBar-bar"></div>
+                  </div>
+                  <div class="ProgressBar -p75 -green">
+                    <div class="ProgressBar-titleBar">
+                      <span class="ProgressBar-title">Comprehensive</span>
+                      <span class="ProgressBar-comments">6</span>
+                      <span class="ProgressBar-percent">75%</span>
+                    </div>
+                    <div class="ProgressBar-bar"></div>
+                  </div>
+                  <div class="ProgressBar -p95 -blue">
+                    <div class="ProgressBar-titleBar">
+                      <span class="ProgressBar-title">Enough examples</span>
+                      <span class="ProgressBar-comments">18</span>
+                      <span class="ProgressBar-percent">95%</span>
+                    </div>
+                    <div class="ProgressBar-bar"></div>
+                  </div>
+                </div>
+                <ul class="Book-summary-links">
+                  <li><a href="#">Rate the Book</a></li>
+                  <li><a href="#">Table of Contents</a></li>
+                  <li><a href="#">Search Inside</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="Book-cover" style="background-image: url('assets/book-covers/eloquent-javascript.png')"></div>
         </div>
-        <div class="Book-cover" style="background-image: url('assets/book-covers/eloquent-javascript.png')"></div>
+        <div class="Book-actions -clearfix">
+          <a href="#" class="Seller">
+            <div class="Seller-logo">
+              <img src="assets/logos/amazon.png">
+            </div>
+            <span class="Seller-price">$29.65</span>
+          </a>
+          <a href="#" class="Seller">
+            <div class="Seller-logo">
+              <span class="Seller-type">publisher</span>
+              <span class="Seller-name">manning.com</span>
+            </div>
+            <span class="Seller-price">$28.70</span>
+          </a>
+          <a href="#" class="Action -bookmark">
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <span>Bookmark It</span>
+          </a>
+        </div>
+      </div>
+      <div class="Book -container">
+        <div class="Book-wrap">
+          <div class="Book-info">
+            <h3 class="Book-title">Learning PHP, MySQL &amp; JavaScript: With jQuery, CSS &amp; HTML5</h3>
+            <div class="Book-metadata">
+              <div class="Book-metadata-author">
+                by <a href="#">Marijn Haverbeke</a>
+                <a class="Button -sm -inline">Follow</a>
+              </div>
+              <div class="Book-metadata-published">Published on 2016</div>
+              <div class="Book-metadata-edition">4th edition</div>
+            </div>
+            <div class="Book-summary">
+              <div class="Book-summary-description">
+                <p>Build interactive, data-driven websites with the most potent combination of open-souce technologies and web standards, even if you have only basic HTML knowledge. With this popular hands-on guide, you'll tackle dynamic web programming with the help of today's core technologies: PHP, MySQL, JavaScript, jQuery, CSS, and HTML5.</p>
+                <p>By discussing JavaScript and jQuery in a single text, Duckett ensures you will quickly be writing your own...</p>
+                <p><a href="#">Read more</a></p>
+              </div>
+              <div class="Book-summary-stats">
+                <div class="Book-summary-ratings">
+                  <div class="ProgressBar -p80 -orange">
+                    <div class="ProgressBar-titleBar">
+                      <span class="ProgressBar-title">Easy to follow</span>
+                      <span class="ProgressBar-percent">80%</span>
+                    </div>
+                    <div class="ProgressBar-bar"></div>
+                  </div>
+                  <div class="ProgressBar -p75 -green">
+                    <div class="ProgressBar-titleBar">
+                      <span class="ProgressBar-title">Comprehensive</span>
+                      <span class="ProgressBar-percent">75%</span>
+                    </div>
+                    <div class="ProgressBar-bar"></div>
+                  </div>
+                  <div class="ProgressBar -p95 -blue">
+                    <div class="ProgressBar-titleBar">
+                      <span class="ProgressBar-title">Enough examples</span>
+                      <span class="ProgressBar-percent">95%</span>
+                    </div>
+                    <div class="ProgressBar-bar"></div>
+                  </div>
+                </div>
+                <ul class="Book-summary-links">
+                  <li><a href="#">Rate the Book</a></li>
+                  <li><a href="#">Table of Contents</a></li>
+                  <li><a href="#">Search Inside</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="Book-cover" style="background-image: url('assets/book-covers/learning-php-mysql-javascript.jpg')"></div>
+        </div>
+        <div class="Book-actions -clearfix">
+          <a href="#" class="Seller">
+            <div class="Seller-logo">
+              <img src="assets/logos/gumroad.png">
+            </div>
+            <span class="Seller-price">$28.40</span>
+          </a>
+          <a href="#" class="Seller">
+            <div class="Seller-logo">
+              <img src="assets/logos/amazon.png">
+            </div>
+            <span class="Seller-price">$29.65</span>
+          </a>
+          <a href="#" class="Seller">
+            <div class="Seller-logo">
+              <span class="Seller-type">publisher</span>
+              <span class="Seller-name">manning.com</span>
+            </div>
+            <span class="Seller-price">$28.70</span>
+          </a>
+          <a href="#" class="Action -bookmark">
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <span>Bookmark It</span>
+          </a>
+        </div>
       </div>
     </div>
+
     <footer class="Footer">
       <div class="Footer-logo">
         <img src="assets/books.MD_footer_logo_icon.png" />
