@@ -53,23 +53,24 @@
 
 .Overlay-tabs {
   position: absolute;
-  top: 3.5em;
+  top: 3.5em; /* make room for the close button */
   right: 0;
-  transform: translateX(10em);
+  width: 2.625em; /* from Overlay-tab height * font-size */
+  transform: translateX(100%);
 }
 
 .Overlay-tab {
-  width: 10em;
-  height: 3em;
-  line-height: 3em;
-  margin-bottom: 7em;
+  width: 10em; /* width needs to be the same for each tab */
+  height: 3em; /* height needs to be the same for each tab */
+  line-height: 3em; /* should match height */
+  margin-bottom: 7em; /* width - height */
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   color: #389BA8;
   cursor: pointer;
   font-size: 0.875em;
   text-align: center;
-  transform: rotate(90deg) translateY(-50%);
+  transform: rotate(90deg) translateY(-100%);
   transform-origin: 0 0;
   transition: color 200ms ease, background-color 200ms ease;
 }
