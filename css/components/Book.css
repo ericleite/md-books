@@ -1,0 +1,84 @@
+.Book {
+  display: flex;
+  width: 100%;
+  max-width: 75em; /* 1200px */
+  margin-top: 3.5em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+}
+
+.Book-info {
+  flex: 1 1 auto;
+  padding: 2em;
+}
+
+.Book-cover {
+  flex: 0 0 22.5em;
+  width: 22.5em;
+  background-size: cover;
+}
+
+.Book-title {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.Book-metadata {
+  color: #aeaeae;
+  margin-bottom: 2.5em;
+}
+
+.Book-metadata > * {
+  display: inline-block;
+  margin-right: 2em;
+  font-size: 0.875em;
+}
+
+.Book-summary {
+  display: flex;
+}
+
+.Book-summary-description {
+  flex: 1 1 auto;
+}
+
+.Book-summary-stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0 0 40%;
+  margin-left: 2em;
+  border-left: 1px solid #e5e5e5;
+  padding-left: 2em;
+}
+
+.Book-summary-ratings {
+
+}
+
+.Book-summary-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.Book-summary-links li {
+  display: block;
+}
+
+.Book-summary-links li + li {
+  border-top: 1px solid #e5e5e5;
+}
+
+.Book-summary-links a {
+  display: block;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.Book-summary-links a:after {
+  display: inline-block;
+  float: right;
+  content: '\203A';
+}

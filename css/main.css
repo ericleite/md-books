@@ -5,7 +5,13 @@
 @import "base.css";
 @import "utils.css";
 
-/* Components-specific CSS */
+/* Elements CSS */
+/* (elements are the simplest reusable building blocks of the site) */
+@import "elements/Button.css";
+@import "elements/ProgressBar.css";
+
+/* Components CSS */
+/* (components are more complex, yet reusable sections of the site) */
 @import "components/App.css";
 @import "components/Header.css";
 @import "components/Footer.css";

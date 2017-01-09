@@ -1,0 +1,130 @@
+.ProgressBar + .ProgressBar {
+  margin-top: 1em;
+}
+
+.ProgressBar-titleBar {
+  font-size: 0.875em;
+  margin-bottom: 0.25em;
+}
+
+.ProgressBar-titleBar > * {
+  display: inline-block;
+}
+
+.ProgressBar-title {
+  padding-left: 0.5em;
+  margin-right: 0.25em;
+}
+
+.ProgressBar-comments {
+  position: relative;
+  padding: 3px 6px 2px 5px;
+  border-radius: 2px 2px 2px 0;
+  color: rgba(0,0,0,0.3);
+  font-size: 0.75em;
+  text-align: center;
+  transform: translateY(-2px);
+}
+
+.ProgressBar-comments:after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-bottom-color: transparent;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  border-left-color: transparent;
+  border-left-style: solid;
+  border-left-width: 4px;
+}
+
+.ProgressBar-percent {
+  float: right;
+}
+
+.ProgressBar-bar {
+  position: relative;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #f3f3f3;
+}
+
+.ProgressBar-bar:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 4px;
+  border-radius: 2px;
+}
+
+/* Colors
+   ----- */
+.ProgressBar.-orange {
+  color: #f6bd3b;
+}
+
+.ProgressBar.-orange .ProgressBar-bar:before {
+  background-color: #f6bd3b;
+}
+
+.ProgressBar.-orange .ProgressBar-comments {
+  background-color: #fcd87f;
+}
+
+.ProgressBar.-orange .ProgressBar-comments:after {
+  border-left-color: #fcd87f;
+}
+
+.ProgressBar.-green {
+  color: #77c26e;
+}
+
+.ProgressBar.-green .ProgressBar-bar:before {
+  background-color: #77c26e;
+}
+
+.ProgressBar.-green .ProgressBar-comments {
+  background-color: #b1d9ad;
+}
+
+.ProgressBar.-green .ProgressBar-comments:after {
+  border-left-color: #b1d9ad;
+}
+
+.ProgressBar.-blue {
+  color: #5fc9e1;
+}
+
+.ProgressBar.-blue .ProgressBar-bar:before {
+  background-color: #5fc9e1;
+}
+
+.ProgressBar.-blue .ProgressBar-comments {
+  background-color: #9cd6e7;
+}
+
+.ProgressBar.-blue .ProgressBar-comments:after {
+  border-left-color: #9cd6e7;
+}
+
+/* Progress
+   ----- */
+.ProgressBar.-p75 .ProgressBar-bar:before {
+  width: 75%;
+}
+
+.ProgressBar.-p80 .ProgressBar-bar:before {
+  width: 80%;
+}
+
+.ProgressBar.-p95 .ProgressBar-bar:before {
+  width: 95%;
+}
