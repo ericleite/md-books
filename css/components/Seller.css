@@ -1,0 +1,51 @@
+.Seller {
+  display: table;
+  background-color: #fff;
+  border-radius: 2px;
+  color: #99bf28;
+  transition: color 200ms ease, background-color 200ms ease;
+}
+
+.Seller:hover {
+  background-color: #99bf28;
+  color: #fff;
+  text-decoration: none;
+}
+
+.Seller + .Seller {
+  margin-left: 2em;
+}
+
+.Seller-logo {
+  display: table-cell;
+  vertical-align: middle;
+  width: 160px;
+  height: 42px;
+  border-radius: 2px;
+  background-color: #272727;
+  text-align: center;
+  overflow: hidden;
+}
+
+.Seller-logo img {
+  display: block;
+}
+
+.Seller-type {
+  display: block;
+  color: #ababab;
+  font-size: 0.75em;
+}
+
+.Seller-name {
+  display: block;
+  color: #99bf28;
+  font-size: 0.875em;
+}
+
+.Seller-price {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 1em;
+  padding-right: 1em;
+}

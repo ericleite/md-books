@@ -1,0 +1,13 @@
+.Books {
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
+}
+
+.Books-loadMore {
+  margin-top: 6em;
+  margin-bottom: 6em;
+  color: #bbb;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+}

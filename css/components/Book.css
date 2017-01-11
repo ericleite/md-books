@@ -1,0 +1,95 @@
+.Book + .Book {
+  margin-top: 6em;
+}
+
+.Book-wrap {
+  display: flex;
+  position: relative;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.Book-info {
+  flex: 1 1 auto;
+  padding: 2em;
+}
+
+.Book-cover {
+  flex: 0 0 22.5em;
+  width: 22.5em;
+  background-position: center;
+  background-size: cover;
+  border-radius: 4px;
+}
+
+.Book-title {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.Book-metadata {
+  color: #aeaeae;
+  margin-bottom: 2.5em;
+}
+
+.Book-metadata > * {
+  display: inline-block;
+  margin-right: 2em;
+  font-size: 0.875em;
+}
+
+.Book-summary {
+  display: flex;
+}
+
+.Book-summary-description {
+  flex: 1 1 auto;
+}
+
+.Book-summary-stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0 0 40%;
+  margin-left: 2em;
+  border-left: 1px solid #e5e5e5;
+  padding-left: 2em;
+}
+
+.Book-summary-links {
+  margin: 2em 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.Book-summary-links li {
+  display: block;
+}
+
+.Book-summary-links li + li {
+  border-top: 1px solid #e5e5e5;
+}
+
+.Book-summary-links a {
+  display: block;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.Book-summary-links a:after {
+  display: inline-block;
+  float: right;
+  content: '\203A';
+}
+
+.Book-actions {
+  margin-top: 2em;
+}
+
+.Book-actions > .Seller {
+  float: left;
+}
+
+.Book-actions > .Action.-bookmark {
+  float: right;
+}

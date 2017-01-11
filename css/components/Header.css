@@ -11,7 +11,6 @@
 .Header-title img {
     float: left;
     margin-top: -10px;
-
 }
 
 .Header-title h1 {
@@ -31,12 +30,10 @@
 .Header-title h2 {
     text-align: center;
     font-family: "Roboto", "Arial", sans-serif;
-    color: darkgreen;
-    font-size: smaller;
-    font-weight: 300;
+    color: rgba(112, 138, 29, 0.8);
+    font-size: 0.875em;
     display: inline-block;
     padding-left: 15px;
-
 }
 
 .Header-search {
@@ -50,22 +47,18 @@
     background-color: #CFDE9D;
     color: green;
     border: 0;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    padding: 10px;
+    border-radius: 4px;
+    padding: 0.875em 1em;
+    font-weight: 300;
 }
 
 .Header-search button.go-search {
-    padding: 10px;
+    padding: 0.875em 1em;
     background-color: white;
     color: #7B9E0E;
     border: 0;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    margin-left: -10px;
-    width: 40px;
+    border-radius: 4px;
+    margin-left: -15px;
 }
 
 ::-webkit-input-placeholder {
@@ -79,4 +72,28 @@
 }
 :-moz-placeholder { /* Firefox 18- */
     color: #7B9E0E;
+}
+
+.Tabs {
+    background-color: white;
+    color: #8A8A8A;
+    font-family: "Roboto", "Arial", sans-serif;
+    text-align: center;
+    margin-top: -17px;
+}
+
+.Tabs ul {
+    padding: 20px;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.Tabs li {
+    list-style: none;
+    display: inline;
+    padding: 20px;
+}
+
+.Tabs .Current {
+    color: #99B639;
 }

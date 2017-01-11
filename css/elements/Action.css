@@ -1,0 +1,18 @@
+.Action {
+  color: #858683;
+  text-align: center;
+}
+
+.Action:hover {
+  color: #99bf28;
+  text-decoration: none;
+}
+
+.Action > i {
+  display: block;
+  font-size: 2em;
+}
+
+.Action > span {
+  font-size: 0.875em;
+}
