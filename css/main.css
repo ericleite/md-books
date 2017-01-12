@@ -15,9 +15,10 @@
 /* Components CSS */
 /* (components are more complex, yet reusable sections of the site) */
 @import "components/App.css";
-@import "components/Header.css";
-@import "components/Footer.css";
-@import "components/Books.css";
 @import "components/Book.css";
-@import "components/Seller.css";
+@import "components/Books.css";
+@import "components/Footer.css";
+@import "components/Header.css";
 @import "components/Overlay.css";
+@import "components/Seller.css";
+@import "components/Tabs.css";

@@ -1,6 +1,7 @@
 .Action {
   color: #858683;
   text-align: center;
+  transition: color 200ms ease;
 }
 
 .Action:hover {

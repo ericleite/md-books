@@ -1,0 +1,22 @@
+.Tabs {
+  background-color: white;
+  color: #8A8A8A;
+  font-family: "Roboto", "Arial", sans-serif;
+  text-align: center;
+}
+
+.Tabs ul {
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: 300;
+}
+
+.Tabs li {
+  list-style: none;
+  display: inline-block;
+  padding: 1em;
+}
+
+.Tabs li.-current {
+  color: #99B639;
+}
